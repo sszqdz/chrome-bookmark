@@ -37,10 +37,10 @@ document.getElementById('commit').onclick = function () {
 }
 
 // 清空标签
-document.getElementById('clear').onclick = function () {
-  let bg = chrome.extension.getBackgroundPage()
-  bg.clearBookmarks()
-}
+// document.getElementById('clear').onclick = function () {
+//   let bg = chrome.extension.getBackgroundPage()
+//   bg.clearBookmarks()
+// }
 
 // 删除远程书签
 document.getElementById('clearonline').onclick = function () {
